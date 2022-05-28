@@ -1,0 +1,234 @@
+:root {
+    --title-color: #212121;    
+    --accent-color: #2196F3;
+    --button-bg-color: #F5F4FA;   
+    --main-button-color:#212121;
+    --second-button-color:#ffffff;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #757575;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+    /* ---------НАВІГАЦІЯ-------- */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logo-main {
+    color: #000;
+}
+.logo-second {
+    color: #FFFFFF;
+}
+
+.nav-link {
+    text-decoration: none;    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+.nav-link.curent {
+    color: var(--accent-color);
+}
+.nav-list {
+    list-style: none;
+}
+
+.header-address {
+    list-style: none;}   
+.address-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent-color);
+}
+
+ /* ----------ГЕРОЙ-------- */
+
+.hero {
+    background-color: grey;
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #FFFFFF;
+    color: #2196F3;
+}
+
+/* ---------ПЕРЕВАГИ-------- */
+.benefits-list {
+    list-style: none;
+}
+.benefit-title {    
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+.benefit-text {    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ---------ПРО НАС-------- */
+.about-title {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+.about-list {
+    list-style: none;
+}
+
+/* ---------КОМАНДА-------- */
+.team-title {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+.team-cards {
+    list-style: none;
+}
+.card-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+.card-text {
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ---------ФУТЕР-------- */
+.footer {
+    background-color: grey;
+}
+.addres-list {
+    list-style: none;    
+}
+.address-item-postal {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-link {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-link.postal {
+    color: #FFFFFF;
+}
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--accent-color);
+}
+
+/* ---------ПОРТФОЛІО-------- */
+.portfolio-filter {
+    list-style: none;
+}
+.filter-btn {
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color:var(--button-bg-color);
+    color: var(--main-button-color);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--second-button-color);
+}
+.portfolio-projects {
+    list-style: none;    
+}
+.project-link {
+    text-decoration: none;
+}
+
+.project-title {    
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+.project-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
